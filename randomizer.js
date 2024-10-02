@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 
 let array = [];
 //get the number of rooms and turn to a number
-let nameAmount = prompt("Enter the amount of names: ");
+let nameAmount = prompt("Enter name: ");
 nameAmount = Number(nameAmount);
 
 //get all the names of the students
@@ -37,8 +37,8 @@ let roomAssignment = (num, array) => {
     let value = obj[`room ${num}`];
     obj[`room ${num}`] = value.concat(`, ${array[0]}`);
   }
+  console.log('----THESE ARE THE ROOM ASSIGNMENTS----' )
   for(let key in obj){
-    console.log('----THESE ARE THE ROOM ASSIGNMENTS----' )
     console.log(key + ': ' + obj[key])
   }
 };
