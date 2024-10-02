@@ -2,12 +2,12 @@ const prompt = require("prompt-sync")();
 
 let array = [];
 //get the number of rooms and turn to a number
-let nameAmount = prompt("Enter name: ");
+let nameAmount = prompt("Enter amount of students: ");
 nameAmount = Number(nameAmount);
 
 //get all the names of the students
 let PickName = () => {
-  let userInput = prompt("Enter your name: ");
+  let userInput = prompt("Enter name: ");
   amount = nameAmount;
   //push to the array
   array.push(userInput);
