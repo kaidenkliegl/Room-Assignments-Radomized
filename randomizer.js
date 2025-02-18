@@ -47,3 +47,6 @@ PickName();
 let arrayNames = shuffle(array);
 let numberOfRooms = Math.floor(nameAmount / 2);
 roomAssignment(numberOfRooms, arrayNames);
+
+
+//ooooooooyoooooo
